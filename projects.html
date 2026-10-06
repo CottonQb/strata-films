@@ -1,0 +1,199 @@
+<!DOCTYPE html><!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Tue Aug 25 2026 17:34:07 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="strata-films.webflow.io" data-wf-page="6993438753468e338e948934" data-wf-site="699341e069cf31d9ef4f588f" data-wf-status="1"><head><meta charset="utf-8"/><link href="https://cdn.prod.website-files.com" rel="preconnect" crossorigin="anonymous"/><title>Projects</title><meta content="Projects" property="og:title"/><meta content="Projects" name="twitter:title"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Webflow" name="generator"/><link href="699341e069cf31d9ef4f588f/css/strata-films.webflow.shared.69bae9334.css" rel="stylesheet" type="text/css" integrity="sha384-abrpM0a1X2stJPZcvj9AM3GeGWZQ3IVd0YK9dR0B3+QsTXrvPhzePhkujXruXODo" crossorigin="anonymous"/><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="699341e069cf31d9ef4f588f/6994dfecde3b69aa4756eaf3_stratab&#32;(1).png" rel="shortcut icon" type="image/x-icon"/><link href="699341e069cf31d9ef4f588f/6994dfef7306ee63b5f7c1b0_stratab&#32;(2).png" rel="apple-touch-icon"/><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='function')w[g].push.apply(w[g],Array.isArray(i)?i:[i]);})(window,['G-D1Q8NQS76L'],'google_tags_first_party');</script><script async="" src="lsfr9no2cgfpNjk5MzQxZTA2OWNmMzFkOWVmNGY1ODhm/DGtv8J3vXQw9Jixi0_muPjwm9Ck"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('set', 'developer_id.dZGVlNj', true);gtag('set', 'developer_id.dYWYxNW', true);gtag('js', new Date());gtag('config', 'G-D1Q8NQS76L');</script><style>.w-webflow-badge{display:none!important}</style></head><body><div class="w-embed"><style>
+@import url('./fonts-3.css');
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body { background:#0F0F0F; color:#fff; font-family:'Inter',sans-serif; }
+
+
+.sf-logo { font-family:'Playfair Display',serif; font-size:18px; letter-spacing:6px; text-transform:uppercase; color:#fff; text-decoration:none; }
+
+
+
+.sf-hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; padding:4px; }
+.sf-mobile-menu{display:none;position:fixed;top:0;left:0;width:100%;height:100vh;background:rgba(0,0,0,0.97);flex-direction:column;align-items:center;justify-content:center;gap:32px;z-index:999}
+.sf-mobile-menu.active{display:flex}
+.sf-mobile-menu a{color:#fff;text-decoration:none;font-size:16px;letter-spacing:3px;text-transform:uppercase}
+.sf-mobile-menu a:hover{opacity:0.6}
+.sf-mobile-close{position:absolute;top:24px;right:24px;font-size:28px;color:#fff;cursor:pointer;background:none;border:none}
+.sf-hamburger span { width:24px; height:1.5px; background:#fff; transition:0.3s; }
+
+.sf-projects-header { padding:160px 48px 80px; max-width:1400px; margin:0 auto; }
+.sf-projects-label { font-size:13px; letter-spacing:4px; text-transform:uppercase; color:#a33; margin-bottom:20px; }
+.sf-projects-title { font-family:'Playfair Display',serif; font-size:52px; font-weight:400; margin-bottom:24px; }
+.sf-projects-desc { font-size:17px; color:rgba(255,255,255,0.5); line-height:1.7; max-width:600px; }
+
+.sf-projects-grid { max-width:1400px; margin:0 auto; padding:0 48px 120px; }
+
+.sf-project-card { display:grid; grid-template-columns:1fr 1fr; gap:72px; align-items:center; padding:80px 0; border-bottom:1px solid rgba(255,255,255,0.08); }
+.sf-project-card:nth-child(even) { direction:rtl; }
+.sf-project-card:nth-child(even) > * { direction:ltr; }
+
+.sf-project-img { width:100%; aspect-ratio:16/10; object-fit:cover; border-radius:4px; filter:grayscale(30%); transition:filter 0.5s, transform 0.5s; }
+.sf-project-card:hover .sf-project-img { filter:grayscale(0%); transform:scale(1.02); }
+.sf-project-img-wrap { overflow:hidden; border-radius:4px; }
+
+.sf-project-info { display:flex; flex-direction:column; gap:16px; }
+.sf-project-year { font-size:16px; letter-spacing:3px; text-transform:uppercase; color:#a33; margin-bottom:12px; }
+.sf-project-name { font-family:'Playfair Display',serif; font-size:36px; font-weight:400; line-height:1.2; }
+.sf-project-desc { font-size:15px; color:rgba(255,255,255,0.85); line-height:1.8; margin:8px 0 20px; }
+.sf-project-tags { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:20px; }
+.sf-project-tag { font-size:11px; letter-spacing:2px; text-transform:uppercase; padding:6px 16px; border:1px solid rgba(255,255,255,0.15); border-radius:2px; color:#fff; }
+.sf-project-link { display:inline-block; padding:14px 36px; background:#a33; color:#fff; text-decoration:none; font-size:12px; letter-spacing:3px; text-transform:uppercase; border-radius:2px; transition:background 0.3s; width:fit-content; }
+.sf-project-link:hover { background:#c44; }
+
+footer.sf-footer { border-top:1px solid rgba(255,255,255,0.08); padding:48px; text-align:center; }
+.sf-footer-logo { font-family:'Playfair Display',serif; font-size:16px; letter-spacing:6px; text-transform:uppercase; margin-bottom:12px; }
+.sf-footer-copy { font-size:13px; color:rgba(255,255,255,0.3); }
+
+@media(max-width:768px){
+  
+  
+  
+  .sf-nav-links{display:none !important}
+  .sf-nav-links{display:none}
+  .sf-hamburger{display:flex !important}
+  .sf-projects-header { padding:120px 24px 48px; }
+  .sf-projects-title { font-size:36px; }
+  .sf-project-card { grid-template-columns:1fr; gap:32px; padding:48px 0; }
+  .sf-project-card:nth-child(even) { direction:ltr; }
+  .sf-project-name { font-size:28px; }
+  .sf-projects-grid { padding:0 24px 80px; }
+}
+
+.sf-nav{display:flex;justify-content:space-between;align-items:center;padding:20px 48px;position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(15,15,15,0.9);backdrop-filter:blur(10px)}
+.sf-nav-logo{font-family:'Playfair Display',serif;font-size:14px;letter-spacing:6px;text-transform:uppercase;color:#fff;text-decoration:none}
+.sf-nav-links{display:flex;gap:32px;list-style:none}
+.sf-nav-links a{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#fff;text-decoration:none;opacity:0.7;transition:opacity 0.3s}
+.sf-nav-links a:hover,.sf-nav-links a.active{opacity:1}
+@media(max-width:768px){.sf-nav{padding:16px 24px}.sf-nav-links{gap:16px}.sf-nav-links a{font-size:10px;letter-spacing:2px}}
+.sf-project-camera{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-top:8px;font-family:'Inter',sans-serif}
+</style>
+
+
+
+<nav class="sf-nav">
+  <a href="index.html" class="sf-nav-logo">Strata Films</a>
+  <div class="sf-nav-links">
+    <a href="index.html">Home</a>
+    <a href="projects.html" class="active">Projects</a>
+    <a href="upcoming-projects.html">Current</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="sf-hamburger" onclick="document.querySelector('.sf-mobile-menu').classList.add('active')">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+<div class="sf-mobile-menu">
+  <button class="sf-mobile-close" onclick="this.parentElement.classList.remove('active')">&times;</button>
+  <a href="index.html">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="upcoming-projects.html">Current</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<header class="sf-projects-header">
+  <div class="sf-projects-label">Our Work</div>
+  <h1 class="sf-projects-title">Projects</h1>
+  <p class="sf-projects-desc">Every project is a collaboration. Here's a look at the stories we've helped bring to life.</p>
+</header>
+
+<section class="sf-projects-grid">
+
+  <div class="sf-project-card">
+    <div class="sf-project-img-wrap">
+      <img src="699341e069cf31d9ef4f588f/6994c7240fdb0d74b0190d39_bs8.jpg" alt="Blood Symmetry" class="sf-project-img">
+    </div>
+    <div class="sf-project-info">
+      <span class="sf-project-year">2025</span>
+      <h2 class="sf-project-name">Blood Symmetry</h2>
+      <p class="sf-project-desc">Blood Symmetry is a mystery driven by paranoia and fear, a man sits alone in a room, terrified of something unseen, before we glimpse a future version of him who is strangely calm. The film pieces together his life and identity through a tense process of revelation and psychological unraveling. Ultimately, it becomes an exploration of the fear of identity, as he waits in a motel for the arrival of what he dreads most.</p>
+      <div class="sf-project-tags">
+        <span class="sf-project-tag">Short Film</span>
+        <span class="sf-project-tag">2025</span>
+      </div>
+      <a href="blood-symmetry.html" class="sf-project-link">See the Project</a>
+      <div class="sf-project-camera">Shot on RED KOMODO 6K</div>
+    </div>
+  </div>
+
+  <div class="sf-project-card">
+    <div class="sf-project-img-wrap">
+      <img src="699341e069cf31d9ef4f588f/699474454b4556e3520b12cd_INH&#32;Still&#32;2.jpeg" alt="Fables River" class="sf-project-img">
+    </div>
+    <div class="sf-project-info">
+      <span class="sf-project-year">2024</span>
+      <h2 class="sf-project-name">Fables River</h2>
+      <p class="sf-project-desc">Another proof-of-concept short designed to explore the tone, characters, and world of an accompanying feature script. Set in a town decaying year by year, forgotten and untouched by time, the story follows five young adults investigating a wave of unexplainable disappearances and strange occurrences. As conspiracies and cult forces begin to surface, they are pulled deeper into a mystery that tests the strength of the friendships they've shared since childhood.</p>
+      <div class="sf-project-tags">
+        <span class="sf-project-tag">Proof of Concept</span>
+        <span class="sf-project-tag">Noir</span>
+        <span class="sf-project-tag">1990s</span>
+      </div>
+      <a href="fables-river.html" class="sf-project-link">See the Project</a>
+      <div class="sf-project-camera">Shot on RED KOMODO 6K</div>
+    </div>
+  </div>
+
+  <div class="sf-project-card">
+    <div class="sf-project-img-wrap">
+      <img src="699341e069cf31d9ef4f588f/6994744793d5b62b5e881c09_WB&#32;Still&#32;1.jpg" alt="Waiting Below" class="sf-project-img">
+    </div>
+    <div class="sf-project-info">
+      <span class="sf-project-year">2023</span>
+      <h2 class="sf-project-name">Waiting Below</h2>
+      <p class="sf-project-desc">Our most ambitious project. An entire bunker set was built from the ground up inside a production studio, its walls first constructed in a friend's garage, then rapidly assembled as we shot nearly the entire film over two sleepless days. Set against a re-imagined collapse of the Soviet Union, the story marked a departure from our earlier work, leaning on dialogue to propel the narrative, with thematic scope that can expand into a feature. Accepted into the 2025 Richmond International Film Festival.</p>
+      <div class="sf-project-tags">
+        <span class="sf-project-tag">Short Film</span>
+        <span class="sf-project-tag">Thriller</span>
+        <span class="sf-project-tag">25 Min</span>
+      </div>
+      <a href="waiting-below.html" class="sf-project-link">See the Project</a>
+      <div class="sf-project-camera">Shot on Sony FX6</div>
+    </div>
+  </div>
+
+  <div class="sf-project-card">
+    <div class="sf-project-img-wrap">
+      <img src="699341e069cf31d9ef4f588f/699474488c4817fa594cf8ed_OM&#32;Still&#32;1.jpg" alt="Crimes of the Outman" class="sf-project-img">
+    </div>
+    <div class="sf-project-info">
+      <span class="sf-project-year">2022</span>
+      <h2 class="sf-project-name">Crimes of the Outman <span style="font-size:0.55em;font-weight:400;opacity:0.6;font-style:italic">(Proof of Concept)</span></h2>
+      <p class="sf-project-desc">A proof-of-concept short film designed to showcase the shape and tone of our first ready-to-shoot feature script. The feature was written for a $50K budget. With the support of a family friend, we funded a trip to Los Angeles and shot the film with a talented local crew.</p>
+      <div class="sf-project-tags">
+        <span class="sf-project-tag">Short Film</span>
+        <span class="sf-project-tag">Proof of Concept</span>
+        <span class="sf-project-tag">Drama</span>
+      </div>
+      <a href="crime-of-the-outman.html" class="sf-project-link">See the Project</a>
+      <div class="sf-project-camera">Shot on Sony FX6</div>
+    </div>
+  </div>
+
+  <div class="sf-project-card">
+    <div class="sf-project-img-wrap">
+      <img src="699341e069cf31d9ef4f588f/6994744aad2f83fde9f62046_P&#32;still&#32;14.png" alt="Perennial" class="sf-project-img">
+    </div>
+    <div class="sf-project-info">
+      <span class="sf-project-year">2022</span>
+      <h2 class="sf-project-name">Perennial</h2>
+      <p class="sf-project-desc">Our first short film follows a young woman trapped in a relentless dream loop. As each cycle unfolds, fragments of awareness begin to surface, but when the moment of waking finally comes, will she recognize it? Built on ambiguous, subjective reality, the film uses disorientation to drive narrative tension, a hallmark of our storytelling style. Nominated for Best First-Time Filmmaker at the Prague International Indie Film Festival.</p>
+      <div class="sf-project-tags">
+        <span class="sf-project-tag">Short Film</span>
+        <span class="sf-project-tag">Surreal</span>
+        <span class="sf-project-tag">Award Winner</span>
+      </div>
+      <a href="perennial.html" class="sf-project-link">See the Project</a>
+      <div class="sf-project-camera">Shot on Canon EOS 7D</div>
+    </div>
+  </div>
+
+</section>
+
+<footer class="sf-footer">
+  <div class="sf-footer-logo">Strata Films</div>
+  <div class="sf-footer-copy">&copy; 2021 Strata Films. All rights reserved.</div>
+</footer></div><script src="js/jquery-3.5.1.min.dc5e7f18c8.js" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="699341e069cf31d9ef4f588f/js/webflow.751e0867.c4af84be1c21006a.js" type="text/javascript" integrity="sha384-5qmgeaz8foN6IlSD2vFkcNCczuP5LIi89GAAq7yYjJNHoMPRfrolT0xJXnNANL4t" crossorigin="anonymous"></script></body></html>
